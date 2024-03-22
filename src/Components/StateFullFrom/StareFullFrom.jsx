@@ -13,7 +13,7 @@ const StareFullFrom = () => {
         }
         else {
             seterror('')
-            console.log(email,password)
+            console.log(email, password)
         }
     }
 
@@ -35,12 +35,14 @@ const StareFullFrom = () => {
                 <input type="number" name="phone" />
                 <br />
                 <input
-                onChange={handlepasswordchange} type="password" name="password" />
+                    onChange={handlepasswordchange} type="password" name="password" />
                 <br />
                 <input type="submit" value="submit" />
             </form>
 
-            <p>{error}</p>
+            {
+                error && <p>{error}</p>
+            }
         </div>
     );
 };
