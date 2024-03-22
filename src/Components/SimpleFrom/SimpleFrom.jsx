@@ -15,7 +15,7 @@ const SimpleFrom = () => {
                 <br />
                 <input type="email" name="email" id="" />
                 <br />
-                <input type="number" name="phone" id="" />
+                <input type="password" name="password" id="" />
                 <br />
                 <input type="submit" value="submit" />
             </form>
