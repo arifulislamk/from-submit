@@ -1,4 +1,5 @@
 import './App.css'
+import Grandpa from './Components/Grandpa/Grandpa'
 import HookFrom from './Components/HookFrom/HookFrom'
 import RefFrom from './Components/RefFrom/RefFrom'
 import ReuseableFrom from './Components/ReuseableFrom/ReuseableFrom'
@@ -20,6 +21,7 @@ function App() {
       {/* <StareFullFrom></StareFullFrom> */}
       {/* <RefFrom></RefFrom> */}
       {/* <HookFrom></HookFrom> */}
+      <Grandpa></Grandpa>
       <ReuseableFrom
         handleSubmit={handleSignUpSubmit}
         fromTitle={'Sign Up'}
