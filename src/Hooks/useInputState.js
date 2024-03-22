@@ -10,6 +10,7 @@ const useInputState = (defaultValue = null) => {
     const onChange = e => {
         setvalue(e.target.value)
     }
+
     return {
         value,
         onChange
